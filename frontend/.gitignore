@@ -1,24 +1,37 @@
-# Logs
-logs
+# Node / React / Vite
+node_modules/
+dist/
+build/
+.vite/
+.env
+.env.local
 *.log
 npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
+# PHP
+vendor/
+composer.lock
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.db
+.venv/
+env/
+venv/
+
+# OS & éditeurs
 .DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+Thumbs.db
+.idea/
+.vscode/
+
+# Tailwind (si fichier temporaire généré)
+*.css.map
+
+# Autres fichiers temporaires
+*.bak
+*.swp
+*.tmp
+*.out
