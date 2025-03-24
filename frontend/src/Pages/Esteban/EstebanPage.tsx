@@ -1,6 +1,9 @@
 function EstebanPage() {
   return (
     <div className="h-screen bg-green-950 text-white flex flex-col items-center justify-center gap-4">
+
+
+
       <h1 className="text-4xl font-bold">Page d’Esteban 🎯</h1>
 
       <p className="text-lg">
@@ -19,7 +22,9 @@ function EstebanPage() {
       >
         ⬅️ Retour à l’accueil
       </a>
+
     </div>
+
   )
 }
 
