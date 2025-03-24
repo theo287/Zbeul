@@ -2,8 +2,8 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import App from './App.tsx'
-import TheoPage from './Pages/TheoPage.tsx'
-import EstebanPage from './Pages/EstebanPage.tsx'
+import TheoPage from './Pages/Theo/TheoPage.tsx'
+import EstebanPage from './Pages/Esteban/EstebanPage.tsx'
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
